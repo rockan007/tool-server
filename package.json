@@ -1,0 +1,19 @@
+{
+  "name": "tool-server",
+  "version": "1.0.0",
+  "description": "tool server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "node inspect index.js"
+  },
+  "keywords": [
+    "tool",
+    "server"
+  ],
+  "author": "rockan007",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
