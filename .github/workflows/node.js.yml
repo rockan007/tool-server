@@ -28,4 +28,5 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: |
-        npm start & npx wait-on http://127.0.0.1:8222
+        npm start &
+        npx wait-on --timeout 60000 http://localhost:8222
