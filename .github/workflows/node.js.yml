@@ -28,4 +28,4 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: |
-        npm start &
+        npm start & npx wait-on http://127.0.0.1:8222
