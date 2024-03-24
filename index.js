@@ -14,8 +14,11 @@ http.createServer((req, res) => {
             res.end(JSON.stringify(response.data) );
         }).catch(err => {
             console.log(err);
+            res.end("hello world!")
         })
-        // res.end("hello world!")
+        
+    }else{
+        res.end("hello world!")
     }
 
 }).listen(8999);
